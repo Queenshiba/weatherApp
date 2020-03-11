@@ -29,7 +29,7 @@ window.addEventListener('load', () => {
                     return response.json();
                 })
                 .then(data => {
-                    console.log(data)
+                    // console.log(data)
                     const { temperature, summary, icon, precipProbability } = data.currently;
                     //set DOM Elements from the API
                     temperatureDegree.textContent = temperature;
@@ -81,5 +81,5 @@ window.addEventListener('load', () => {
         }
 
     }
-    console.log(icon, weatherName[0])
+    // console.log(icon, weatherName[0])
 });
