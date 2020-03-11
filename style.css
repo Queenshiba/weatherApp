@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+    font-family: sans-serif;
+    color: white;
+}
+
+.location, .temperature {
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature-description {
+    height: 10vh;
+}
+
+.temperature {
+    flex-direction: column;
+    height: 30vh;
+}
+
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section span {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2 {
+    font-size: 40px;
+}
+
+.precipProbability-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.precipProbability-section p {
+    padding-right: 20px;
+    line-height: 30px;
+}
+
+.clear-day {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(31, 255, 255);
+    background: linear-gradient(0deg, rgba(31, 255, 255, 1) 0%, rgba(0, 168, 255, 1) 61%);
+    font-family: sans-serif;
+    color: white;
+}
+
+.clear-night {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(1, 1, 186, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    font-family: sans-serif;
+    color: white;
+}
+
+.partly-cloudy-day {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(0, 202, 255);
+    background: linear-gradient(90deg, rgba(0, 202, 255, 1) 0%, rgba(120, 120, 120, 1) 100%);
+    font-family: sans-serif;
+    color: white;
+}
+
+.partly-cloudy-night {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(169, 170, 169);
+    background: radial-gradient(circle, rgba(169, 170, 169, 1) 0%, rgba(13, 16, 52, 1) 100%);
+    font-family: sans-serif;
+    color: white;
+}
+
+.cloudy {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(242, 243, 244);
+    background: linear-gradient(0deg, rgba(242, 243, 244, 1) 0%, rgba(116, 117, 119, 1) 100%);
+    font-family: sans-serif;
+    color: white;
+}
+
+.rain {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(94, 100, 101);
+    background: linear-gradient(0deg, rgba(94, 100, 101, 1) 0%, rgba(45, 110, 253, 1) 100%);
+    font-family: sans-serif;
+    color: white;
+}
+
+.sleet {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(68, 112, 120);
+    background: linear-gradient(0deg, rgba(68, 112, 120, 1) 0%, rgba(224, 231, 245, 1) 100%);
+    font-family: sans-serif;
+    color: white;
+}
+
+.snow {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    color: gray;
+    background: rgb(243, 251, 251);
+    background: radial-gradient(circle, rgba(243, 251, 251, 1) 0%, rgba(196, 222, 252, 1) 100%);
+}
+
+.wind {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(97, 147, 196);
+    background: linear-gradient(0deg, rgba(97, 147, 196, 1) 0%, rgba(251, 251, 251, 1) 61%);
+    font-family: sans-serif;
+    color: white;
+}
+
+.fog {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(94, 100, 101);
+    background: linear-gradient(0deg, rgba(94, 100, 101, 1) 0%, rgba(224, 231, 245, 1) 100%);
+    font-family: sans-serif;
+    color: white;
+}
