@@ -10,10 +10,8 @@
 4. the percentage of the probability of precipitation
 5. background colors changes depending on the weather (10 patterns)
 
-![](./img/img1.png)
-![](./img/img2.png)
-![](./img/img3.png)
-![](./img/img4.png)
+![](./img/weatherApp.gif)
+
 
 ## This project's aim
 - fetch API and manipulate it 
