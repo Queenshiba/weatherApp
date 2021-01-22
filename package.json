@@ -1,7 +1,7 @@
 {
   "name": "weather-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "- this is an app that shows current weather at the user's location",
   "main": "config.js",
   "scripts": {
     "deploy": "gh-pages -d dist"
@@ -17,7 +17,8 @@
     "url": "https://github.com/Queenshiba/weatherApp/issues"
   },
   "homepage": "https://github.com/Queenshiba/weatherApp#readme",
-  "devDependencies": {
+  "dependencies": {
+    "gh-pages": "^3.1.0",
     "lodash": ">=4.17.19"
   }
 }
