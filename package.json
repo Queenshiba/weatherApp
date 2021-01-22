@@ -17,7 +17,7 @@
     "url": "https://github.com/Queenshiba/weatherApp/issues"
   },
   "homepage": "https://github.com/Queenshiba/weatherApp#readme",
-  "dependencies": {
-    "gh-pages": ">=4.17.19"
+  "devDependencies": {
+    "lodash": ">=4.17.19"
   }
 }
