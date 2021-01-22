@@ -1,5 +1,5 @@
 {
-  "name": "weatherApp",
+  "name": "weather-app",
   "version": "1.0.0",
   "description": "",
   "main": "config.js",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/Queenshiba/weatherApp#readme",
   "dependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": ">=4.17.19"
   }
 }
